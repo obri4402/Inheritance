@@ -8,6 +8,7 @@ public class Main {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Plant plant = new Plant();
 
         System.out.println("Is it alive?: " + dog.isAlive); //Inheriting to another class
 
@@ -25,6 +26,12 @@ public class Main {
         System.out.println("The dog's lives is " + dog.lives);
         dog.eat();
         dog.speak();
+
+        System.out.println();
+
+        System.out.println("Are plants living organism?: " + plant.isAlive);
+        plant.photosynthesize();
+
 
     }
 }
